@@ -1,0 +1,143 @@
+* {
+    padding: 0%;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+html {
+    font-size: 62,5%;
+}
+
+
+
+
+body{
+    font-family: "montserrat", sans-serif;
+    
+}
+
+#fu {
+    font-size: 10em;
+    text-align: center;
+}
+
+li{
+    margin:10px;
+}
+
+.produto{
+    display: inline-block;
+}
+
+.produtos{
+    margin-left:10.0rem;
+    margin-right:10.0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.realce-inicio button {
+    list-style: none;
+    border: none;
+    font-size: 1em;
+    background-color:transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.realce-inicio button:hover {
+    color: #f2ed55;
+    font-weight: bolder;
+}
+
+.menu{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#btnBusca {
+    position: absolute;
+    left: 505px;
+}
+
+#txtBusca {
+    position: absolute;
+    left: 180px;
+    height: 1.7rem;
+    width: 20.0rem;
+}
+
+nav ul {
+    justify-content: space-between;
+    display: flex;
+    gap: 2rem;
+}
+
+header {
+    background-color: #191919;
+    margin: auto;
+    box-shadow: 0 0.5rem 0.8rem  rgba(0, 0, 0, 0.223);
+    padding: 0.7rem 0.6rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+    gap: 5rem;
+}
+
+.site-footer {
+    background-color: #191919;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-column {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sem {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    font-size: 50px
+}
+
+/*
+
+.container_logo{
+    text-align: center;
+    width: 15.0rem;
+    display: inline-block;
+}

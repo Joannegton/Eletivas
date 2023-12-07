@@ -1,0 +1,27 @@
+body {
+	width: 720px;
+	height: 1100px;
+	background-image: url(https://img.elo7.com.br/product/zoom/1C5AAA3/transformers-painel-em-lona-1x0-70cm-fundo-festa-infantil.jpg);
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-color: Grey;
+	color: #fffafa;
+}
+
+#links {
+	margin: auto;
+	align-items: center;
+	border-radius: 15px;
+	display: inline-block;
+	justify-content: space-evenly;
+	background-color: grey;
+	width: 155px;
+	height: 30px;
+	border: 2px solid red;
+	font-size: 28px;
+	padding: 15px;
+}
+
+#imagens {
+	display: inline-block;
+}
